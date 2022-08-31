@@ -66,6 +66,7 @@ body {
     width: 1170px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 70px;
     height: 246px;
     display: flex;
     justify-content: space-between;
@@ -112,6 +113,7 @@ body {
  border:2px solid #575153;
  background-color: transparent;
  text-transform: uppercase;
+ margin-bottom: 60px;
 }
 
 .text-button:hover {
@@ -120,4 +122,73 @@ body {
     border: 0 solid;
     color: #fff;
 }
+
+.map-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.map-description {
+    width: 550px;
+    height: 450px;
+    background: #F8F8F8;
+    margin-top: 0;
+}
+
+.map-city {
+    font-size: 14px;
+    line-height: 20px;
+    color: #575153;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.map-padding {
+    padding-left: 20px;
+}
+
+.map-address {
+   font-size: 11px;
+   line-height: 20px;
+   color: #727272;
+   text-transform: uppercase;
+}
+
+.map-text {
+   font-size: 12px;
+   line-height: 22px;
+   color: #8E8C8C;
+   margin-top: 6px;
+   margin-bottom: 0;
+}
+
+.map-list {
+    list-style: none;
+}
+
+.map-details {
+   font-size: 10px;
+   line-height: 32px;
+   color: #8E8C8C;
+   padding-bottom: 0;
+}
+
+.social-media {
+    width: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.map-icon {
+width: 30px;
+height: 30px;
+background-color:#727272;
+margin-right: 10px;
+border-radius: 50%;
+}
+
 
