@@ -209,13 +209,13 @@ body {
 
 .map-img {
   flex-basis: 65%;
-  flex-grow: 1;
   min-width: 380px;
 }
 
 .map-description {
   flex-basis: 35%;
   flex-grow: 1;
+
 }
 
 .nav-search {
