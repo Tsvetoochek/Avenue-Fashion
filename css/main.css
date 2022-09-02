@@ -38,6 +38,7 @@ body {
   list-style: none;
   text-transform: uppercase;
   display: flex;
+  align-items: baseline;
 }
 
 .nav-item {
@@ -409,15 +410,16 @@ padding-right:0 5%;
 
 .dropdown {
   position:relative;
-  display: inline-block;
+  display:inline-flexbox;
+
 }
+
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #ffffff;
   min-width: 300px;
-  padding: 5%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   overflow: auto;
@@ -425,7 +427,11 @@ padding-right:0 5%;
 
 .dropdown-list {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
+}
+
+.dropdown-item {
+  padding-bottom: 14px;
 }
 
 .dropdown-link {
@@ -433,8 +439,8 @@ padding-right:0 5%;
   text-decoration: none;
   display: block;
   text-transform:capitalize;
-  padding-bottom: 3%;
 }
+
 
 .dropdown-link:hover {
   color:#00C8C8;
